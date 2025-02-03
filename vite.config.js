@@ -1,8 +1,11 @@
-import { defineConfig } from 'vite';
-import unocss from 'unocss/vite'; 
+import { resolve } from "path";
 
-export default defineConfig({
-  plugins: [
-    unocss(), 
-  ],
-});
+export default {
+  root: resolve(__dirname, "src"),
+  build: {
+    outDir: "../dist",
+  },
+  server: {
+    port: 8080,
+  },
+};
