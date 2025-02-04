@@ -1,1 +1,16 @@
 @import "bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+:root {
+  --white: #ffffff;
+  --slate-300: #dbe2ef;
+  --slate-500: #6b7280;
+  --slate-900: #1e293b;
+  --font-family: "Outfit", sans-serif;
+}
+body {
+  font-family: var(--font-family);
+  background-color: var(--slate-500);
+}
+a {
+  color: #264653;
+}
