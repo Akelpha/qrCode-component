@@ -9,8 +9,18 @@
 }
 body {
   font-family: var(--font-family);
-  background-color: var(--slate-500);
+  background-color: var(--slate-300);
 }
 a {
   color: #264653;
+}
+h5 {
+  color: var(--slate-900);
+}
+p {
+  color: var(--slate-500);
+  font-size: 13px;
+}
+section:last-child {
+  font-size: 11px;
 }
