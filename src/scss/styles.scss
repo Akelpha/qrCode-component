@@ -24,3 +24,19 @@ p {
 section:last-child {
   font-size: 11px;
 }
+@media (min-width: 600px) {
+  .container {
+      padding: 0 2rem;
+      max-width: 355px;
+  }
+  .container > div:first-child {
+      width: 100%;
+      margin: 1rem 0;
+  }
+  h5{
+    margin-top: 2rem;
+  }
+  p{
+margin: 1rem;
+  }
+}
